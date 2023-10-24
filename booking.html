@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=npm install -D tailwindcss
+    npx tailwindcss init, initial-scale=1.0"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css"
+    />
+  </head>
+  <body>
+    <!-- Desktob section -->
+    <header class="bg-[#244AC5] text-white">
+      <nav
+        class="sm:mx-auto relative flex max-w-7xl items-center justify-between p-6 lg:px-8 font-inter text-[16px]"
+        aria-label="Global"
+      >
+        <div class="max-h-[52px]">
+          <a href="./index.html"><img src="css/img/naftalan.png" /></a>
+        </div>
+        <div class="hidden lg:flex items-center lg:gap-x-5">
+          <div
+            class="relative navbar-link hover:ease-in hover:duration-300 hover:scale-[1.05] cursor-pointer"
+          >
+            <a href="./index.html">Əsas səhifə</a>
+          </div>
+          <div
+            class="relative navbar-link hover:ease-in hover:duration-300 hover:scale-[1.05] cursor-pointer"
+          >
+            <a href="./about-company.html">Haqqımızda</a>
+          </div>
+          <div
+            class="relative navbar-link hover:ease-in hover:duration-300 hover:scale-[1.05] cursor-pointer z-10"
+          >
+            <div class="group inline-block relative">
+              <button class="py-2 inline-flex items-center">
+                <a href="./sanatorium.html">Sanatoriyalar</a>
+                <svg
+                  class="fill-current h-4 w-4"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                  />
+                </svg>
+              </button>
+              <ul
+                class="absolute hidden w-48 bg-white rounded-xl text-gray-700 group-hover:block overflow-hidden"
+              >
+                <li class="">
+                  <a
+                    class="hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                    href="sanatorium-details.html"
+                    >Sanatoriya 1</a
+                  >
+                </li>
+                <li class="">
+                  <a
+                    class="hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                    href="sanatorium-details.html"
+                    >Sanatoriya 2</a
+                  >
+                </li>
+                <li class="">
+                  <a
+                    class="hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                    href="sanatorium-details.html"
+                    >Sanatoriya 3</a
+                  >
+                </li>
+                <li class="">
+                  <a
+                    class="hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                    href="sanatorium-details.html"
+                    >Sanatoriya 4</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="relative navbar-link hover:ease-in hover:duration-300 hover:scale-[1.05] cursor-pointer"
+          >
+            <a href="insurance-serivce.html">Sığorta</a>
+          </div>
+          <div
+            class="relative navbar-link hover:ease-in hover:duration-300 hover:scale-[1.05] cursor-pointer"
+          >
+            <a href="insurance-serivce.html">Həkim məsləhəti</a>
+          </div>
+          <div
+            class="relative navbar-link hover:ease-in hover:duration-300 hover:scale-[1.05] cursor-pointer"
+          >
+            <a href="insurance-serivce.html">Taksi</a>
+          </div>
+          <div
+            class="relative navbar-link hover:ease-in hover:duration-300 hover:scale-[1.05] cursor-pointer"
+          >
+            <a href="insurance-serivce.html">Avtomobil kirayəsi</a>
+          </div>
+          <div
+            class="relative navbar-link !border-x-[1px] border-gray-200/30 px-[1px] hover:ease-in hover:duration-300 hover:scale-[1.05] cursor-pointer z-10"
+          >
+            <div class="group inline-block relative">
+              <button class="py-2 px-2 inline-flex items-center">
+                <a href="#" class="whitespace-nowrap">₼ - AZN </a>
+                <svg
+                  class="fill-current h-4 w-4"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                  />
+                </svg>
+              </button>
+              <ul
+                class="absolute hidden w-24 bg-white rounded-md text-gray-700 group-hover:block overflow-hidden"
+              >
+                <li class="">
+                  <a
+                    href="#"
+                    class="hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                    >₼ - AZN
+                  </a>
+                </li>
+                <li class="">
+                  <a
+                    href="#"
+                    class="hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                    >$ - USD
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="relative navbar-link hover:ease-in hover:duration-300 hover:scale-[1.05] cursor-pointer z-10"
+          >
+            <div class="group inline-block relative">
+              <button class="py-2 inline-flex items-center">
+                <span class="pr-1"> 🌐︎ </span>
+                <a href="#" class="whitespace-nowrap text-white"> AZ </a>
+              </button>
+              <ul
+                class="absolute hidden w-16 bg-white rounded-md text-gray-700 group-hover:block overflow-hidden"
+              >
+                <li class="">
+                  <a
+                    href="#"
+                    class="hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                  >
+                    AZ
+                  </a>
+                </li>
+                <li class="">
+                  <a
+                    href="#"
+                    class="hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                  >
+                    EN
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div
+          id="menu"
+          class="flex lg:hidden bg-cyan-100 py-4 px-7 rounded-[26px]"
+        >
+          <img src="./img/svg/menu.svg" />
+        </div>
+
+        <!-- Mobile Menu  -->
+        <div id="mobile-menu" class="hidden">
+          <div
+            class="fixed inset-y-0 right-0 z-999 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
+          >
+            <div class="flex items-center justify-end">
+              <button
+                type="button"
+                class="m-2.5 rounded-[26px] px-6 py-4 bg-slate-100"
+                id="onClose"
+              >
+                <img src="./img/svg/close.svg" />
+              </button>
+            </div>
+            <div class="flow-root">
+              <div class="-my-6">
+                <div class="space-y-2 py-10">
+                  <div
+                    class="relative text-slate-800 text-[24px] tracking-[0.3px] font-semibold"
+                  >
+                    <a href="./index.html">Menyu</a>
+                  </div>
+                  <div
+                    class="relative navbar-link text-slate-500 tracking-[0.2px] hover:text-cyan-600 hover:ease-in hover:duration-300 text-[16px] cursor-pointer"
+                  >
+                    <a href="./index.html">Əsas səhifə</a>
+                  </div>
+                  <div
+                    class="relative navbar-link tracking-[0.2px] text-slate-500 text-[16px] hover:text-cyan-600 hover:ease-in hover:duration-300 cursor-pointer"
+                  >
+                    <a href="./about.html">Haqqımızda</a>
+                  </div>
+                  <div
+                    class="relative navbar-link tracking-[0.2px] text-slate-500 text-[16px] hover:text-cyan-600 hover:ease-in hover:duration-300 cursor-pointer"
+                  >
+                    <div
+                      class="relative inline-block text-left"
+                      x-data="{ open: false }"
+                    >
+                      <button
+                        @click="open = true"
+                        type="button"
+                        class="flex justify-center items-center gap-x-1"
+                      >
+                        <span>Sanatoriyalar</span>
+                        <svg
+                          class="fill-current h-4 w-4"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 20 20"
+                        >
+                          <path
+                            d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                          />
+                        </svg>
+                      </button>
+
+                      <div
+                        x-show="open"
+                        @click.away="open = false"
+                        class="mt-1 w-40 rounded-md shadow-lg"
+                      >
+                        <div class="rounded-md shadow-xs">
+                          <div
+                            class="py-1"
+                            role="menu"
+                            aria-orientation="vertical"
+                            aria-labelledby="options-menu"
+                          >
+                            <a
+                              href="#"
+                              class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                              role="menuitem"
+                            >
+                              Sanatoriya 1
+                            </a>
+                            <a
+                              href="#"
+                              class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                              role="menuitem"
+                            >
+                              Sanatoriya 2
+                            </a>
+                            <a
+                              href="#"
+                              class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                              role="menuitem"
+                            >
+                              Sanatoriya 3
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="relative navbar-link tracking-[0.2px] text-slate-500 text-[16px] hover:text-cyan-600 hover:ease-in hover:duration-300 cursor-pointer"
+                  >
+                    <a href="./services.html">Sığorta</a>
+                  </div>
+                  <div
+                    class="relative navbar-link tracking-[0.2px] text-slate-500 text-[16px] hover:text-cyan-600 hover:ease-in hover:duration-300 cursor-pointer"
+                  >
+                    <a href="./services.html">Həkim məsləhəti</a>
+                  </div>
+                  <div
+                    class="relative navbar-link tracking-[0.2px] text-slate-500 text-[16px] hover:text-cyan-600 hover:ease-in hover:duration-300 cursor-pointer"
+                  >
+                    <a href="./services.html">Taksi</a>
+                  </div>
+                  <div
+                    class="relative navbar-link tracking-[0.2px] text-slate-500 text-[16px] hover:text-cyan-600 hover:ease-in hover:duration-300 cursor-pointer"
+                  >
+                    <a href="./services.html">Avtomobil kirayəsi</a>
+                  </div>
+                  <div
+                    class="relative navbar-link tracking-[0.2px] text-slate-500 text-[16px] hover:text-cyan-600 hover:ease-in hover:duration-300 cursor-pointer"
+                  >
+                    <div
+                      class="relative inline-block text-left"
+                      x-data="{ open: false }"
+                    >
+                      <button
+                        @click="open = true"
+                        type="button"
+                        class="flex justify-center items-center gap-x-1"
+                      >
+                        <span>₼ - AZN </span>
+                        <svg
+                          class="fill-current h-4 w-4"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 20 20"
+                        >
+                          <path
+                            d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                          />
+                        </svg>
+                      </button>
+
+                      <div
+                        x-show="open"
+                        @click.away="open = false"
+                        class="mt-1 w-40 rounded-md shadow-lg"
+                      >
+                        <div class="rounded-md shadow-xs">
+                          <div
+                            class="py-1"
+                            role="menu"
+                            aria-orientation="vertical"
+                            aria-labelledby="options-menu"
+                          >
+                            <a
+                              href="#"
+                              class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                              role="menuitem"
+                            >
+                              ₼ - AZN
+                            </a>
+                            <a
+                              href="#"
+                              class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                              role="menuitem"
+                            >
+                              $ - USD
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="relative navbar-link tracking-[0.2px] text-slate-500 text-[16px] hover:text-cyan-600 hover:ease-in hover:duration-300 cursor-pointer"
+                  >
+                    <div
+                      class="relative inline-block text-left"
+                      x-data="{ open: false }"
+                    >
+                      <button
+                        @click="open = true"
+                        type="button"
+                        class="flex justify-center items-center gap-x-1"
+                      >
+                        <span>🌐︎ AZ </span>
+                        <svg
+                          class="fill-current h-4 w-4"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 20 20"
+                        >
+                          <path
+                            d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                          />
+                        </svg>
+                      </button>
+
+                      <div
+                        x-show="open"
+                        @click.away="open = false"
+                        class="mt-1 w-40 rounded-md shadow-lg"
+                      >
+                        <div class="rounded-md shadow-xs">
+                          <div
+                            class="py-1"
+                            role="menu"
+                            aria-orientation="vertical"
+                            aria-labelledby="options-menu"
+                          >
+                            <a
+                              href="#"
+                              class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                              role="menuitem"
+                            >
+                              🌐︎ AZ
+                            </a>
+                            <a
+                              href="#"
+                              class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                              role="menuitem"
+                            >
+                              🌐︎ EN
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="relative navbar-link tracking-[0.2px] text-slate-500 text-[16px] hover:text-cyan-600 hover:ease-in hover:duration-300 cursor-pointer"
+                  >
+                    <a
+                      href="https://api.whatsapp.com/send?phone=994703300004&text=Salam"
+                      target="_blank"
+                    >
+                      Həkim ilə əlaqə</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="py-8 flex border-b-[#E2E8F0] border-b-[1px] gap-x-6">
+              <div
+                class="cursor-pointer self-center p-[13px] bg-cyan-100 rounded-lg"
+              >
+                <image src="./img/svg/phone-ring.svg" class="max-w-[30px]" />
+              </div>
+              <div class="flex flex-col justify-between">
+                <span class="text-[#64748B] text-sm">Əlaqə nömrəsi</span>
+                <h4
+                  class="text-cyan-500 my-2 leading-[18px] font-semibold text-2xl"
+                >
+                  012 765 43 21
+                </h4>
+              </div>
+            </div>
+            <div class="pt-8">
+              <h3 class="text-slate-800 font-medium">
+                Bizi Sosial Şəbəkələrdə İzləyin
+              </h3>
+              <ul class="flex gap-x-3 mt-4">
+                <li>
+                  <a
+                    href="link1"
+                    target="_blank"
+                    class="rounded-lg grid place-items-center border-1 border-slate-200"
+                  >
+                    <img
+                      src="img/svg/facebook.svg"
+                      width="40"
+                      height="40"
+                      alt="social1"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="link1"
+                    target="_blank"
+                    class="rounded-lg grid place-items-center border-1 border-slate-200"
+                  >
+                    <img
+                      src="img/svg/linkedin.svg"
+                      width="40"
+                      height="40"
+                      alt="social1"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="link1"
+                    target="_blank"
+                    class="rounded-lg grid place-items-center border-1 border-slate-200"
+                  >
+                    <img
+                      src="img/svg/youtube.svg"
+                      width="40"
+                      height="40"
+                      alt="social1"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="link1"
+                    target="_blank"
+                    class="rounded-lg grid place-items-center border-1 border-slate-200"
+                  >
+                    <img
+                      src="./img/svg/instagram.svg"
+                      width="40"
+                      height="40"
+                      alt="social1"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="bg-[#244AC5] relative w-full sm:mb-10 flex flex-col py-15">
+        <div class="max-w-[1296px] w-full mx-auto font-inter">
+          <div class="flex w-full mx-auto flex-col gap-2 justify-center">
+            <span
+              class="sm:text-[22px] sm:leading-[44px] tracking-[0.1px] sm:text-center md:text-[32px] font-medium text-white leading-[38px] p-0"
+            >
+              Naftalan təbiət möcüzəsidir
+            </span>
+            <span
+              class="sm:!text-center sm:p-2 sm:text-base sm:font-normal text-slate-200 sm:tracking-[0.1px] text-[20px] md:p-0 p-0 m-0 md:text-center md:mx-auto"
+            >
+              Qara qızılın bulağı şəfa səbəbidir.
+            </span>
+          </div>
+
+          <!-- filer  -->
+        </div>
+      </div>
+    </header>
+
+    <!-- Form -->
+    <section class="h-[700px] w-full">
+      <div class="mx-auto w-[400px]">
+        <form  class="flex flex-col text-[#94A3B8] gap-3 text-[16px] outline-none">
+          <select class="w-[546px] h-[52px] px-4 border-[#E2E8F0] border-[1px] rounded-lg" name="" id="">
+            <option value="Sanatoriya seçimi" >Sanatoriya seçimi</option>
+            <option value="Sanatoriya seçimi">Sanatoriya seçimi</option>
+            <option value="Sanatoriya seçimi">Sanatoriya seçimi</option>
+            <option value="Sanatoriya seçimi">Sanatoriya seçimi</option>
+            <option value="Sanatoriya seçimi">Sanatoriya seçimi</option>
+          </select>
+          <input type="text" class="w-[546px] px-4 h-[52px] border-[#E2E8F0] border-[1px] rounded-lg" placeholder="Ad və Soyadınız" />
+          <div class="relative w-[546px]">
+            <input type="text" id="datetimepicker w-full"
+                class="w-full focus:outline-none focus:bg-white focus:border-gray-500 border border-gray-200 text-gray-700 rounded-lg block pr-10 px-3.5 h-[46px]"
+                placeholder="Rezervasiya vaxtını seçin" readonly="readonly">
+            <div class="absolute inset-y-0 right-0 flex items-center pr-3.5 pointer-events-none">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="18" viewBox="0 0 16 18" fill="none"
+                    class="absolute z-0 right-3.5 w-4 h-4">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M4.44444 0C4.93536 0 5.33333 0.402944 5.33333 0.9V1.8H10.6667V0.9C10.6667 0.402944 11.0646 0 11.5556 0C12.0465 0 12.4444 0.402944 12.4444 0.9V1.8H13.3333C14.0406 1.8 14.7189 2.08446 15.219 2.59081C15.719 3.09716 16 3.78391 16 4.5V15.3C16 16.0161 15.719 16.7028 15.219 17.2092C14.7189 17.7155 14.0406 18 13.3333 18H2.66667C1.95942 18 1.28115 17.7155 0.781049 17.2092C0.280952 16.7028 0 16.0161 0 15.3V4.5C0 3.78392 0.280951 3.09716 0.781049 2.59081C1.28115 2.08446 1.95942 1.8 2.66667 1.8H3.55556V0.9C3.55556 0.402944 3.95352 0 4.44444 0ZM3.55556 3.6H2.66667C2.43092 3.6 2.20483 3.69482 2.03813 3.8636C1.87143 4.03239 1.77778 4.2613 1.77778 4.5V7.2H14.2222V4.5C14.2222 4.26131 14.1286 4.03239 13.9619 3.8636C13.7952 3.69482 13.5691 3.6 13.3333 3.6H12.4444V4.5C12.4444 4.99706 12.0465 5.4 11.5556 5.4C11.0646 5.4 10.6667 4.99706 10.6667 4.5V3.6H5.33333V4.5C5.33333 4.99706 4.93536 5.4 4.44444 5.4C3.95352 5.4 3.55556 4.99706 3.55556 4.5V3.6ZM14.2222 9H1.77778V15.3C1.77778 15.5387 1.87143 15.7676 2.03813 15.9364C2.20483 16.1052 2.43092 16.2 2.66667 16.2H13.3333C13.5691 16.2 13.7952 16.1052 13.9619 15.9364C14.1286 15.7676 14.2222 15.5387 14.2222 15.3V9ZM3.55556 11.7C3.55556 11.2029 3.95352 10.8 4.44444 10.8H6.22222C6.71314 10.8 7.11111 11.2029 7.11111 11.7V13.5C7.11111 13.9971 6.71314 14.4 6.22222 14.4H4.44444C3.95352 14.4 3.55556 13.9971 3.55556 13.5V11.7Z"
+                        fill="#94A3B8" />
+                </svg>
+            </div>
+           </div>
+          <select class="w-[546px] h-[52px] px-4 border-[#E2E8F0] border-[1px] rounded-lg" >
+            <option value="Nəfər sayı (Böyük)">Nəfər sayı (Böyük)</option>
+            <option value="Sanatoriya seçimi">Sanatoriya seçimi</option>
+           
+          </select>
+          <select  class="w-[546px] px-4 h-[52px] border-[#E2E8F0] border-[1px] rounded-lg">
+            <option value="Nəfər sayı (Uşaq)">Nəfər sayı (Uşaq)</option>
+            <option value="Sanatoriya seçimi">Sanatoriya seçimi</option>
+         
+          </select>
+
+          <label class="flex w-[546px] space-x-2">
+            <select class="w-[153px] px-4  h-[52px] border-[#E2E8F0] border-[1px] rounded-lg" name="" id="">
+                <option value="">+994</option>
+                <option value="">+994</option>
+            </select>
+            <input type="number" class="w-[377px] px-4 h-[52px] border-[#E2E8F0] border-[1px] rounded-lg" placeholder="Əlaqə nömrəniz">
+
+
+          </label>
+         
+         <input type="email" class="w-[546px] px-4 h-[52px] border-[#E2E8F0] border-[1px] rounded-lg" placeholder="E-poçt ünvanınız">
+         <button class="bg-[#244AC5] text-[#fff] w-[546px] h-[52px] rounded-lg">Müraciəti göndər</button>
+
+        </form>
+      </div>
+    </section>
+
+    <footer
+      class="py-10 bottom-1 mt-4 border-[#E2E8F0] text-[#C3C5CB] bg-[#11182D]"
+    >
+      <div class="max-w-7xl mx-auto px-10">
+        <!-- footer title -->
+        <div
+          class="flex sm:flex-col sm:items-center md:flex-row lg:flex-row lg:justify-between md:justify-around lg:pb-5"
+        >
+          <div>
+            <img src="css/img/naftalan.png" alt="Footer logo naftalan" />
+          </div>
+          <div
+            class="flex items-center my-6 lg:mr-14 gap-3 lg:w-1/3 lg:justify-end"
+          >
+            <a
+              href="https://www.facebook.com/johndoe"
+              target="_blank"
+              class="w-[40px] h-[40px] grid place-items-center rounded-md bg-[#222F59]"
+            >
+              <img
+                src="css/img/icons/facebook-icon (1).svg"
+                width="7"
+                height="14"
+                alt="social1"
+              />
+            </a>
+            <a
+              href="https://www.instagram.com/johndoe/"
+              target="_blank"
+              class="w-[40px] h-[40px] grid place-items-center rounded-md bg-[#222F59]"
+            >
+              <img
+                src="css/img/icons/instagram-icon.svg"
+                width="14"
+                height="14"
+                alt="social1"
+              />
+            </a>
+            <a
+              href="https://www.youtube.com/channel/XYZ456"
+              target="_blank"
+              class="w-[40px] h-[40px] grid place-items-center rounded-md bg-[#222F59]"
+            >
+              <img
+                src="css/img/icons/youtube-icon (1).svg"
+                width="20"
+                height="20"
+                alt="social1"
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/johndoe/"
+              target="_blank"
+              class="w-[40px] h-[40px] grid place-items-center rounded-md bg-[#222F59]"
+            >
+              <img
+                src="css/img/icons/linkedin-icon.svg"
+                width="14"
+                height="14"
+                alt="social1"
+              />
+            </a>
+          </div>
+        </div>
+        <!-- footer title -->
+
+        <!-- footer center section -->
+        <div
+          class="sm:text-center mt-2 lg:text-left grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1"
+        >
+          <div>
+            <h2
+              class="font-inter font-medium text-[18px] leading-[26px] -tracking-[0.2px] pb-2"
+            >
+              Əlaqə məlumatları
+            </h2>
+            <ul
+              class="font-inter font-normal text-[16px] leading-6 -tracking-[0.2px]"
+            >
+              <li><a href="#"> Naftalan Sanatoriyaları</a></li>
+              <li><a href="#">Unvan1</a></li>
+              <li><a href="#">Unvan2</a></li>
+              <li><a href="#">Unvan3</a></li>
+            </ul>
+
+            <div
+              class="lg:w-[216px] sm:w-auto border-b-[1px] mt-3 border-[#FFFFFF1A]"
+            ></div>
+            <ul
+              class="font-inter font-normal text-[16px] leading-6 -tracking-[0.2px] pt-5"
+            >
+              <li><a href="mailto:example@email.com">Email address</a></li>
+
+              <li><a href="#">+994 50 765 4321</a></li>
+              <li>
+                <a href="https://wa.me/1234567890"> WhatsApp ilə əlaqə</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="sm:mt-3 md:mt-2">
+            <h2
+              class="font-inter font-medium text-[18px] leading-[26px] -tracking-[0.2px] pb-2"
+            >
+              QISA MENYULAR
+            </h2>
+            <ul
+              class="font-inter font-normal text-[16px] leading-6 -tracking-[0.2px]"
+            >
+              <li><a href="index.html">Əsas səhifə</a></li>
+              <li><a href="about-company.html">Haqqımızda</a></li>
+              <li><a href="sanatorium.html">Sanatoriyalar</a></li>
+              <li><a href="insurance-serivce.html">Sığorta</a></li>
+              <li><a href="insurance-serivce.html">Həkim məsləhəti</a></li>
+              <li><a href="insurance-serivce.html">Taksi</a></li>
+              <li><a href="insurance-serivce.html">Avtomobil kirayəsi</a></li>
+            </ul>
+          </div>
+
+          <div class="sm:mt-3 md:mt-2">
+            <h2
+              class="font-inter font-medium text-[20px] leading-[26px] -tracking-[0.2px] pb-2"
+            >
+              Sanatoriyalar
+            </h2>
+            <ul
+              class="font-inter font-normal text-[16px] leading-6 -tracking-[0.2px]"
+            >
+              <li><a href="#">Naftalan sağlamlıq mərkəzi</a></li>
+              <li><a href="#">Kəpəz sanatoriyası</a></li>
+              <li><a href="#">Garabag resort spa naftalan</a></li>
+              <li><a href="#">Sun City SPA Naftalan 4*</a></li>
+              <li><a href="#">Qaşaltı sanatoriyası</a></li>
+            </ul>
+          </div>
+
+          <div class="sm:mt-3 md:mt-2">
+            <ul
+              class="font-inter font-normal text-[16px] leading-6 -tracking-[0.2px] pt-4"
+            >
+              <li><a href="#">Çinar hotel naftalan</a></li>
+              <li><a href="#">Çinar hotel naftalan</a></li>
+              <li><a href="#">Gözəl naftalan</a></li>
+              <li><a href="#">Naftalan Bakı sanatoriyası</a></li>
+              <li><a href="#">Möcüzəli naftalan</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- footer center section -->
+
+        <!-- footer artice section -->
+
+        <div
+          class="flex lg:flex-row lg:justify-between pt-10 w-full space-x-4 sm:flex-col sm:items-center"
+        >
+          <img
+            src="css/img/icons/copyright-icon.png"
+            class="w-10"
+            alt="copyright-icon"
+          />
+          <p
+            class="text-[16px] font-inter font-normal leading-6 tracking-[0.2px]"
+          >
+            Veb saytdaki məlumatların tam və ya qismən i cazəsiz istifadəsi qəti
+            qadağandır. Bütün məzmun, mətn və şəkillər müəllif hüquqları
+            qanunları ilə qorunur. İcazəsiz istifadə, paylaşma və ya təkrarlama
+            qanuni hüquqların pozulmasıdır. Əqli mülkiyyətə hörmət innovasiyanı
+            və ədalətli rəqabəti təşviq edir. Veb saytdaki məlumatlardan
+            istifadə etmək və ya paylaşmaq üçün müvafiq icazə alınmalıdır.
+            Plagiat dürüstlüyə və ədalətə xələl gətirir. Məsuliyyətli əlaqəni
+            təşviq edin, məzmun yaradıcılarına hörmət edin və etik prinsipləri
+            qoruyun. Məlumatların icazəsiz istifadəsi hüquqi nəticələrə səbəb
+            ola bilər.
+          </p>
+        </div>
+      </div>
+
+      <div class="border-t-[1px] mt-3 border-[#FFFFFF1A]"></div>
+      <div class="max-w-7xl mx-auto">
+        <div
+          class="mx-auto flex p-5 flex-col-reverse md:flex-row items-center justify-between text-slate-400"
+        >
+          <div class="md:w-2/3 pl-2 sm:order-2 lg:order-1">
+            <p
+              class="text-center text-[16px] text-[#C3C5CB] md:text-left mb-5 md:mb-0"
+            >
+              &copy;Copyright 2023,
+              <span class="font-semibold">Naftalan Sanatoriyalari</span>. Bütün
+              hüquqlar qorunur.
+            </p>
+          </div>
+          <div
+            class="flex text-[14px] lg:mr-14 font-medium text-[#FFFFFF40] sm:order-1 lg:order-1 gap-3 md:justify-end"
+          >
+            <a href="https://sayt.az/" target="_blank">
+              <img src="img/svg/saytaz.svg" alt="" />tərəfindən hazırlanıb.</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"
+    ></script>
+    <script src="js/Filter.js"></script>
+    <script>
+        const dateInput = document.getElementById('datepicker');
+        flatpickr("#datetimepicker", {
+            enableTime: true,
+            dateFormat: "Y-m-d H:i",
+        });
+        const phoneCode = document.getElementById("phone");
+        const iti = window.intlTelInput(phoneCode, {
+            initialCountry: "az",
+            separateDialCode: true,
+
+            utilsScript:
+                "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+        });
+        const customSelects = document.querySelectorAll(".custom-select");
+
+        customSelects.forEach(function (item) {
+
+            item.addEventListener("click", function (e) {
+                // e.stopPropagation();
+                clearUl();
+                let ul = this.querySelector("ul");
+                if (ul.classList.contains("hidden")) {
+                    ul.classList.remove("hidden");
+                    ul.classList.add("active");
+                }
+                else {
+                    ul.classList.add("hidden");
+                }
+            })
+            let lis = item.querySelectorAll("li");
+            lis.forEach(function (li) {
+                li.addEventListener("click", function (e) {
+                    e.stopPropagation();
+                    let p = this.closest(".custom-select").querySelector("p");
+                    p.innerHTML = this.innerHTML;
+                    li.parentNode.classList.add("hidden");
+                })
+            })
+        })
+        function clearUl() {
+            const customSelects = document.querySelectorAll(".custom-select");
+            customSelects.forEach((item) => {
+                item.querySelector("ul").classList.add("hidden");
+            })
+        }
+    </script>
+  </body>
+</html>
